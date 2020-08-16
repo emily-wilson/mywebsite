@@ -1,1 +1,1 @@
-# mywebsite-studio
+# <#< repository.name >#>-studio

@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 import {withRouter} from 'next/router'
 import SVG from 'react-inlinesvg'
+import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin'
+import LogoGithub from 'react-ionicons/lib/LogoGithub'
 import styles from './Header.module.css'
 import HamburgerIcon from './icons/Hamburger'
 
@@ -89,6 +91,10 @@ class Header extends Component {
         </h1>
         <nav className={styles.nav}>
           <ul className={styles.navItems}>
+            <li key='linkedin' className={styles.navItem}>
+              <a href='https://www.linkedin.com/in/emilywilson62'><LogoLinkedin /></a>
+              <a href='https://github.com/emily-wilson'><LogoGithub /></a>
+            </li>
             {navItems &&
               navItems.map(item => {
                 const {slug, title, _id} = item

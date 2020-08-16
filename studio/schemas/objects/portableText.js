@@ -24,5 +24,6 @@ export default {
     },
     { type: 'figure' },
     { type: 'embedHTML' },
+    { type: 'embedTechTag' },
   ],
 };

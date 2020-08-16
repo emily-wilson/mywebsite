@@ -10,11 +10,12 @@
 }
 
 .article {
-  width: 100%;
-  max-width: var(--width-small);
+  width: 80%;
+  /* max-width: var(--width-small); */
   margin: 0 auto;
   padding: 0 1.5rem;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  font-weight: 200;
 }
 
 .label {
@@ -26,8 +27,9 @@
 }
 
 .heading {
-  font-size: var(--font-title3-size);
-  line-height: var(--font-title3-line-height);
+  font-size: var(--font-title1-size);
+  line-height: var(--font-title1-line-height);
+  font-family: var(--font-family-sans);
 }
 
 .label+.heading {

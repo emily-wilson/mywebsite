@@ -18,16 +18,16 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
-                  buildHookId: '',
+                  buildHookId: '<#<deployments.studio.providerInfo.buildHookId>#>',
                   title: 'Sanity Studio',
-                  name: '',
-                  apiId: ''
+                  name: '<#<deployments.studio.providerInfo.siteName>#>',
+                  apiId: '<#<deployments.studio.providerInfo.siteId>#>'
                 },
                 {
-                  buildHookId: '',
+                  buildHookId: '<#<deployments.web.providerInfo.buildHookId>#>',
                   title: 'Landing pages Website',
-                  name: '',
-                  apiId: ''
+                  name: '<#<deployments.web.providerInfo.siteName>#>',
+                  apiId: '<#<deployments.web.providerInfo.siteId>#>'
                 }
               ]
             }
@@ -36,10 +36,10 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/emily-wilson/mywebsite',
+            value: 'https://github.com/<#<repository.owner>#>/<#<repository.name>#>',
             category: 'Code'
           },
-          {title: 'Frontend', value: '', category: 'apps'}
+          {title: 'Frontend', value: '<#<deployments.web.url>#>', category: 'apps'}
         ]
       }
     },

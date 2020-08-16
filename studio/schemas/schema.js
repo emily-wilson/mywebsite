@@ -12,6 +12,7 @@ import siteConfig from './documents/siteConfig';
 // Object types
 import cta from './objects/cta';
 import embedHTML from './objects/embedHTML';
+import embedTechTag from './objects/embedTechTag';
 import figure from './objects/figure';
 import internalLink from './objects/internalLink';
 import link from './objects/link';
@@ -32,6 +33,7 @@ export default createSchema({
   types: schemaTypes.concat([
     cta,
     embedHTML,
+    embedTechTag,
     figure,
     hero,
     imageSection,

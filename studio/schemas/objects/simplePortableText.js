@@ -20,5 +20,8 @@ export default {
     {
       type: 'embedHTML',
     },
+    {
+      type: 'embedTechTag',
+    }
   ],
 };

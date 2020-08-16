@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:200');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 :root {
   --wide-container: 60rem;
   --narrow-container: 40rem;
 
-  --font-family-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-sans: "Roboto";
+  --font-family: "Playfair Display";
+  /* --font-family-sans: "Playfair Display"; */
+  --font-weight: 200;
 
   --color-black: #202123;
   --color-dark-gray: #32373e;

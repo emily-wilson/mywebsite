@@ -6,7 +6,7 @@
   color: var(--color-black, #000);
   display: flex;
   margin: 0 auto;
-  max-width: var(--width-small);
+  /* max-width: var(--width-small); */
 }
 
 .root a {
